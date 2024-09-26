@@ -4,8 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cl shop - site ecommerce</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+
+    <!-- Debut section menu de navigation -->
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="shop.html">CLSHOP</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Acceuil</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Nos produits
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="ordinateur.html">Ordinateur</a></li>
+                  <li><a class="dropdown-item" href="smartphone.html">Téléphone</a></li>
+                  <li><a class="dropdown-item" href="Produits_electromenagers.html">Electroménagers</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="connexion2.html">connexion</a>
+              </li>
+              <li class="nav-item"></li>
+                <a class="nav-link" href="inscription.html">Inscription</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="chercher un produit" aria-label="Search">
+              <button class="btn btn-outline-danger" type="submit">chercher</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- fin section menu de navigation -->
+
     <!-- debut en tete de la page  -->
     <div id="entete" style="background: linear-gradient(75deg,blue, red); color: white; font-size: 30px; padding: 20px;">
         <marquee behavior="alternate" direction="right"> 
@@ -17,13 +58,13 @@
     <!-- debut bannière -->
     <div id="banniere">
         <div class="banniere-image">
-            <img src="images/pc-ac3.jpg" alt="image d'un ordinateur">
+            <img src="bootstrap/images/pc-ac3.jpg" alt="image d'un ordinateur">
         </div>
         <div class="banniere-image">
-            <img src="images/pc-ac4.jpg" alt="image d'un ordinateur">
+            <img src="bootstrap/images/pc-ac4.jpg" alt="image d'un ordinateur">
         </div>
         <div class="banniere-image">
-            <img src="images/pc-ac5.jpg" alt="image d'un ordinateur">
+            <img src="bootstrap/images/pc-ac5.jpg" alt="image d'un ordinateur">
         </div>
     </div>
     <!-- fin banniere  -->
@@ -35,7 +76,7 @@
         </div>
         <div id="liste-produits">
             <div class="produits">
-                <div class="produit-image"> <img src="images\pc-h1.jpg" alt=""></div>
+                <div class="produit-image"> <img src="bootstrap/images/pc-h1.jpg" alt=""></div>
                 <div class="description">
                     <h4>Hp</h4>
                     <p>3 000 000fg</p>
@@ -43,14 +84,14 @@
                 </div>
             </div>
             <div class="produits">
-                <div class="produit-image"> <img src="images\pc-h2.jpg" alt=""></div>
+                <div class="produit-image"> <img src="bootstrap/images/pc-h2.jpg" alt=""></div>
                 <div class="description"> <h4>Hp</h4>
                     <p>4 000 000fg</p>
                     <button> Acheter</button>
                 </div>
             </div>
             <div class="produits">
-                <div class="produit-image"><img src="images\pc-lenovo.jpg" alt=""></div>
+                <div class="produit-image"><img src="bootstrap/images/pc-lenovo.jpg" alt=""></div>
                 <div class="description"> <h4>lenovo</h4>
                     <p> 5 000 000fg</p>
                     <button>Acheter</button>
@@ -58,7 +99,7 @@
                 </div>
             </div>
             <div class="produits">
-                <div class="produit-image"><img src="images\pc-lenovo1.jpg" alt=""></div>
+                <div class="produit-image"><img src="bootstrap/images/pc-lenovo1.jpg" alt=""></div>
                 <div class="description">
                     <h4>lenovo</h4>
                     <p>6 000 000fg</p>
@@ -76,7 +117,7 @@
         </div>
         <div id="liste-produits2">
             <div class="produits2">
-                <div class="produit-image2"> <img src="mes images/tab4_6_1.webp" alt=""></div>
+                <div class="produit-image2"> <img src="bootstrap/mes images//tab4_6_1.webp" alt=""></div>
                 <div class="description2">
                     <h4> Samsung Galaxy Tab A4 </h4>
                     <p>1 000 000fg</p>
@@ -84,7 +125,7 @@
                 </div>
             </div>
             <div class="produits2">
-                <div class="produit-image2"> <img src="mes images/samsung-galaxy-tab-s2-9-7-wi-fi-1.jpg" alt=""></div>
+                <div class="produit-image2"> <img src="bootstrap/mes images//samsung-galaxy-tab-s2-9-7-wi-fi-1.jpg" alt=""></div>
                 <div class="description2"> 
                     <h4>Samsung Galaxy Tab S2</h4>
                     <p> 1 700 000fg</p>
@@ -92,7 +133,7 @@
                 </div>
             </div>
             <div class="produits2">
-                <div class="produit-image2"><img src="mes images/tablette-samsung-galaxy-tab-e-t561-96-3g.jpg" alt=""></div>
+                <div class="produit-image2"><img src="bootstrap/mes images//tablette-samsung-galaxy-tab-e-t561-96-3g.jpg" alt=""></div>
                 <div class="description2"> 
                     <h4>Samsung Galaxy Tab E</h4>
                     <p> 3 000 000fg</p>
@@ -101,7 +142,7 @@
                 </div>
             </div>
             <div class="produits2">
-                <div class="produit-image2"><img src="mes images/81qUtLG+7XL._AC_UF1000,1000_QL80_.jpg" alt=""></div>
+                <div class="produit-image2"><img src="bootstrap/mes images//81qUtLG+7XL._AC_UF1000,1000_QL80_.jpg" alt=""></div>
                 <div class="description2">
                     <h4>Samsung Galaxy Tab A</h4>
                     <p> 1 500 000fg</p>
@@ -119,7 +160,7 @@
         </div>
         <div id="liste-produits3">
             <div class="produits3">
-                <div class="produit-image3"> <img src="mes images/61UYrAnsqFL.jpg" alt=""></div>
+                <div class="produit-image3"> <img src="bootstrap/mes images//61UYrAnsqFL.jpg" alt=""></div>
                 <div class="description3">
                     <h4> Iphone 14 pro </h4>
                     <p>15 000 000fg</p>
@@ -127,7 +168,7 @@
                 </div>
             </div>
             <div class="produits3">
-                <div class="produit-image3"> <img src="mes images/OJO7WMJ5KFCWDMDAXU26KB5BGM.jpg" alt=""></div>
+                <div class="produit-image3"> <img src="bootstrap/mes images//OJO7WMJ5KFCWDMDAXU26KB5BGM.jpg" alt=""></div>
                 <div class="description3"> 
                     <h4> Iphone 13 </h4>
                     <p> 8 000 000fg</p>
@@ -135,7 +176,7 @@
                 </div>
             </div>
             <div class="produits3">
-                <div class="produit-image3"><img src="mes images/51OJ7BY4JbL._AC_UF1000,1000_QL80_.jpg" alt=""></div>
+                <div class="produit-image3"><img src="bootstrap/mes images//51OJ7BY4JbL._AC_UF1000,1000_QL80_.jpg" alt=""></div>
                 <div class="description3"> 
                     <h4>Samsung A15</h4>
                     <p> 1 500 000fg</p>
@@ -144,7 +185,7 @@
                 </div>
             </div>
             <div class="produits3">
-                <div class="produit-image3"><img src="mes images/telephone-portable-smartphone-samsung-galaxy-a23-4-go-de-ram-64-go-de-stockage-ma0016-338199.jpg" alt=""></div>
+                <div class="produit-image3"><img src="bootstrap/mes images//telephone-portable-smartphone-samsung-galaxy-a23-4-go-de-ram-64-go-de-stockage-ma0016-338199.jpg" alt=""></div>
                 <div class="description3">
                     <h4>Samsung Galaxy Tab A</h4>
                     <p> 1 000 000fg</p>
@@ -162,7 +203,7 @@
         </div>
         <div id="liste-produits4">
             <div class="produits4">
-                <div class="produit-image4"> <img src="mes images/image-1.jpg" alt=""></div>
+                <div class="produit-image4"> <img src="bootstrap/mes images//image-1.jpg" alt=""></div>
                 <div class="description4">
                     <h4> Mixeur </h4>
                     <p>500 000fg</p>
@@ -170,7 +211,7 @@
                 </div>
             </div>
             <div class="produits4">
-                <div class="produit-image4"> <img src="mes images/10041825_yy_0001_titel___.jpg" alt=""></div>
+                <div class="produit-image4"> <img src="bootstrap/mes images//10041825_yy_0001_titel___.jpg" alt=""></div>
                 <div class="description4"> 
                     <h4> lave vaisselle </h4>
                     <p> 3 000 000fg</p>
@@ -178,7 +219,7 @@
                 </div>
             </div>
             <div class="produits4">
-                <div class="produit-image4"><img src="mes images/01-bouilloire-design-cuisine-3.jpg" alt=""></div>
+                <div class="produit-image4"><img src="bootstrap/mes images//01-bouilloire-design-cuisine-3.jpg" alt=""></div>
                 <div class="description4"> 
                     <h4>Bouilloire electrique</h4>
                     <p> 200 000fg</p>
@@ -187,7 +228,7 @@
                 </div>
             </div>
             <div class="produits4">
-                <div class="produit-image4"><img src="mes images/00-petits-electromenagers-cuisine.jpg" alt=""></div>
+                <div class="produit-image4"><img src="bootstrap/mes images//00-petits-electromenagers-cuisine.jpg" alt=""></div>
                 <div class="description4">
                     <h4> Batteuse</h4>
                     <p> 1 000 000fg</p>
@@ -268,12 +309,12 @@
     }
     
     .produits2 {
-        width: 400px;
-        margin: 30px;
+        width: 300px;
+        margin: 15px;
     }
     .produit-image2 img {
-        width: 200px;
-        height: 300px;
+        width: 100%;
+        height: 200px;
     }
     #liste-produits2{
         display: flex;
@@ -292,7 +333,7 @@
         padding: 15px;
         border-radius: 10px;
     }
-    .description2 button :hover {
+    .description2 button:hover {
         background-color: #fff;
         color: #000075;
         cursor: pointer;
@@ -308,12 +349,12 @@
     }
     
     .produits3 {
-        width: 400px;
-        margin: 30px;
+        width: 300px;
+        margin: 15px;
     }
     .produit-image3 img {
         width: 200px;
-        height: 300px;
+        height: 150px;;
     }
     #liste-produits3{
         display: flex;
@@ -332,7 +373,7 @@
         padding: 15px;
         border-radius: 10px;
     }
-    .description3 button :hover {
+    .description3 button:hover {
         background-color: #fff;
         color: #000075;
         cursor: pointer;
@@ -348,12 +389,12 @@
     }
     
     .produits4 {
-        width: 400px;
-        margin: 30px;
+        width: 300px;
+        margin: 15px;
     }
     .produit-image4 img {
         width: 200px;
-        height: 300px;
+        height: 150px;
     }
     #liste-produits4{
         display: flex;
@@ -372,7 +413,7 @@
         padding: 15px;
         border-radius: 10px;
     }
-    .description4 button :hover {
+    .description4 button:hover {
         background-color: #fff;
         color: #000075;
         cursor: pointer;
